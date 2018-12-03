@@ -1,0 +1,40 @@
+.header {
+    margin-top: 25px;
+    .logo {
+        @include display_flex();
+        height: 36px;
+        &__img {
+            width: 150px;
+            height: 36px;
+        }
+        &__contato {
+            @include display_flex();
+            font-size: 0.75rem;
+            width: 350px;
+            padding: 10px 50px 0 0;
+        }
+    }
+    .navbar {
+        height: 72px;
+        padding-top: 20px;
+        @include display_flex();
+        &__list {
+            padding-top: 10px;
+            @include display_flex();
+            width: 604px;
+            font-size: 0.875rem;
+            &-link{
+                text-transform: uppercase;
+                color: $font-color;
+            }
+        }
+        &__btn {
+            width: 110.5px;
+            height: 41.44px;
+            border: none;
+            border-radius: 7px;
+            color: #fff;
+            background-image: linear-gradient(to right, #F4627C , #B539A8);
+        }
+    }
+}
