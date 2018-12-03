@@ -6,6 +6,8 @@
 
 body {
     font-size: $font-size;
+    color: $font-color;
+    font-family: $font-family;
 }
 
 ul, li {
@@ -17,6 +19,6 @@ a {
 }
 
 .container {
-    width: 960px;
+    width: 1000px;
     margin: 0 auto;
 }
