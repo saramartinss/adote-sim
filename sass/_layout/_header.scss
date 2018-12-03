@@ -3,9 +3,9 @@
     .logo {
         @include display_flex-row();
         height: 36px;
-        &__img {
-            width: 150px;
-            height: 36px;
+        h1{
+            color: #E35787;
+            font-size: 1.9rem;
         }
         &__contato {
             @include display_flex-row();
