@@ -1,5 +1,11 @@
-@mixin display_flex() {
+@mixin display_flex-row() {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+@mixin display_flex-column() {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
