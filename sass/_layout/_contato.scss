@@ -1,0 +1,31 @@
+.contato{
+    &__secao{
+        font-size: 1rem;
+    }
+    &__titulo{
+        font-size: 1.8rem;
+        color: rgb(15, 53, 83);
+        font-weight: lighter;
+    }
+    &__conteudo{
+        @include display_flex-row();
+    }
+    &__form{
+        @include display_flex-column();
+        input, textarea{
+            width: 420px;
+            margin: 8px 0;
+            padding: 15px; 
+            border-color: #F5F5F5;
+            border-radius: 10px;
+            border-style: solid;
+        }
+    }
+    &__img{
+        height: 340px;
+    }
+    &__btn{
+        align-self: flex-end;
+        margin: 30px 0;
+    }
+}
