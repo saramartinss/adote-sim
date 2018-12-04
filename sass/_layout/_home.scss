@@ -1,8 +1,6 @@
 .home{
-    height: 80vh;
     padding: 25px 0;
     &__adote{
-        height: 454px;
         @include display_flex-row();
         &-conteudo{
             width: 40%;
@@ -22,15 +20,14 @@
             width: 160px;
         }        
         &-img{
-            width: 600px;
-            padding: 20px 30px;
+            height: 400px;
         }
     }
     &__background{
         background-image: linear-gradient(to right, #F4627C , #B539A8);
     }
     &__ajude{
-        height: 200px;
+        margin-top: 50px;
         @include display_flex-row;
         color: #fff;
         padding: 25px 0;
