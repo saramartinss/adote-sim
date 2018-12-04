@@ -25,5 +25,21 @@
             }
         }
     }
+    &__passos{
+        @include display_flex-row();
+        font-size: 1rem;
+        text-align: center;
+        padding: 50px 0;
+        div{
+            margin: 0 15px;
+        }
+        h3{
+            color: #0F3553;
+            padding: 20px 0;
+        }
+        h5{
+            padding: 40px 0;
+        }
+    }
 
 }
