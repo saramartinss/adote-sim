@@ -29,7 +29,7 @@
     &__ajude{
         margin-top: 50px;
         @include display_flex-row;
-        color: #fff;
+        color: $font-color-secundary;
         padding: 25px 0;
         &-conteudo{
             h1{
