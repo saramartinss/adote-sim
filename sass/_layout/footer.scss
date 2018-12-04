@@ -1,0 +1,29 @@
+.footer{
+    background-image: $gradient;
+    margin-top: 40px;
+    color: $font-color-secundary;
+    &__conteudo{
+        text-align: center;
+        h1{
+            padding: 30px 0;
+        }
+        p{
+            font-size: 0.9rem;
+        }
+    }
+    &__logo{
+        font-size: 2.6rem;
+        color: $font-color-secundary;
+    }
+    &__list{
+        @include display_flex-row();
+        justify-content: flex-end;
+        padding: 40px 20px 10px 0;
+        a {
+            color: $font-color-secundary;
+            text-transform: uppercase;
+            font-size: .7rem;
+            padding: 0 5px;
+        }
+    }
+}
