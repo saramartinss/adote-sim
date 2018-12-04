@@ -15,7 +15,7 @@ form.validate({
             required: true,
             minlength: 10
         },
-        message: {
+        text: {
             required: true,
         }
     },
@@ -32,6 +32,8 @@ form.validate({
             required: 'Por favor, digite seu telefone para contato',
             minlength: 'Por favor, digite seu número para contato com ddd'
         },
-        message: 'Por favor, digite sua mensagem'
+        text: {
+            required: 'Por favor, digite sua mensagem'
+        }
     }
 })
