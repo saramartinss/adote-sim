@@ -1,0 +1,29 @@
+.quem-somos{
+    &__logo{
+        text-align: center;
+    }
+    &__sobre{
+        padding: 40px 0;
+        @include display_flex-row();
+        &-img{
+            height: 300px;
+        }
+        &-conteudo{
+            @include display_flex-column();
+            padding-left: 110px;
+            h3{
+                font-size: 1.1rem;
+                font-weight: lighter;
+                span{
+                    font-size: 1.8rem;
+                    color: #0F3553;
+                }
+            }
+            p{
+                font-size: 1rem;
+                padding: 25px 0;
+            }
+        }
+    }
+
+}
