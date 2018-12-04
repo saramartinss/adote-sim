@@ -1,0 +1,22 @@
+.blog{
+    padding: 50px 0;
+    h3{
+        font-size: 1.1rem;
+        font-weight: lighter;
+    }
+    h2{
+        font-size: 1.8rem;
+        color: #0f3553;
+        font-weight: lighter;
+    }
+    &__noticias{
+        @include display_flex-row();
+        padding: 50px 0;
+        div{
+           width: 33%;
+        }
+    }
+    &__imagem{
+        
+    }
+}
