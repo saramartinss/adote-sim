@@ -3,11 +3,6 @@
     .logo {
         @include display_flex-row();
         height: 36px;
-        h1{
-            color: #E35787;
-            font-size: 1.9rem;
-            font-weight: lighter;
-        }
         &__contato {
             @include display_flex-row();
             font-size: 0.75rem;
