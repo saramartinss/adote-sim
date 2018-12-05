@@ -12,7 +12,7 @@
             @include display_flex-column();
             padding-left: 110px;
             h3{
-                font-size: 1.1rem;
+                font-size: $font-h3;
                 font-weight: lighter;
                 span{
                     font-size: 1.8rem;
@@ -20,14 +20,14 @@
                 }
             }
             p{
-                font-size: 1rem;
+                font-size: $font-p;
                 padding: 25px 0;
             }
         }
     }
     &__passos{
         @include display_flex-row();
-        font-size: 1rem;
+        font-size: $font-p;
         text-align: center;
         padding: 50px 0;
         div{

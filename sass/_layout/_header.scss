@@ -5,7 +5,7 @@
         height: 36px;
         &__contato {
             @include display_flex-row();
-            font-size: 0.75rem;
+            font-size: $font-p;
             width: 350px;
             padding: 10px 50px 0 0;
         }
@@ -18,7 +18,7 @@
             padding-top: 10px;
             @include display_flex-row();
             width: 604px;
-            font-size: 0.875rem;
+            font-size: $font-p;
             &-link{
                 text-transform: uppercase;
                 color: $font-color;
@@ -26,7 +26,6 @@
         }
         &__btn {
             border-radius: 7px;
-            font-size: 0.75rem;
         }
     }
 }
