@@ -38,3 +38,15 @@ a {
     background-image: $gradient;
     font-size: $font-btn;
 }
+
+.secao {
+    display: flex;
+    align-items: center;
+    span {
+    display: block;
+    width: 120px;
+    height: 2px;
+    background-image: $gradient;
+    margin-left: 20px;
+    }
+}
