@@ -16,4 +16,28 @@
     &__conteudo{
         font-size: $font-p;
     }
+    .slider{
+        width: 26%;
+        img{
+            width: 60px;
+            padding-top: 10px;
+        }
+    }
+    .slider-for{
+        width: 100%;
+    }
+    .slick-slide{
+        margin: 0px 5px;
+    }
+    .slick-slide {
+        transition: all ease-in-out .3s;
+    }
+    .slick-current img {
+        width: 74px;
+        padding-top: 0;
+        padding-right: 5px;
+    }
+    .slider-element img{
+        margin: 0 auto;
+    }
 }
