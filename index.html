@@ -5,6 +5,9 @@
     <meta charset="utf-8" />
     <title>Adotesim</title>
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 </head>
 
@@ -14,37 +17,41 @@
             <h1 class="logo__titulo">Adotesim</h1>
             <ul class="logo__contato">
                 <li>
-                    <img src="" alt="">11 3465-9843</li>
+                    <img class="icone" src="./img/call.svg" alt="">
+                    <p>11 3465-9843</p>
+                </li>
                 <li>
-                    <img src="" alt="">contato@adotesim.com</li>
+                    <img class="icone" src="./img/message.svg" alt="">
+                    <p>contato@adotesim.com</p>
+                </li>
             </ul>
         </div>
         <nav class="navbar container">
             <ul class="navbar__list">
                 <li class="navbar__list-item">
-                    <a class="navbar__list-link" href="#">Home</a>
+                    <a class="navbar__list-link" href="#home">Home</a>
                 </li>
                 <li class="navbar__list-item">
-                    <a class="navbar__list-link" href="#">Quem somos</a>
+                    <a class="navbar__list-link" href="#quem-somos">Quem somos</a>
                 </li>
                 <li class="navbar__list-item">
-                    <a class="navbar__list-link" href="#">Instituições</a>
+                    <a class="navbar__list-link" href="#instituicoes">Instituições</a>
                 </li>
                 <li class="navbar__list-item">
-                    <a class="navbar__list-link" href="#">Contato</a>
+                    <a class="navbar__list-link" href="#contato">Contato</a>
                 </li>
                 <li class="navbar__list-item">
-                    <a class="navbar__list-link" href="#">Casos de sucesso</a>
+                    <a class="navbar__list-link" href="#depoimentos">Casos de sucesso</a>
                 </li>
                 <li class="navbar__list-item">
-                    <a class="navbar__list-link" href="#">Blog</a>
+                    <a class="navbar__list-link" href="#blog">Blog</a>
                 </li>
             </ul>
             <button class="navbar__btn button" type="button">Doe</button>
         </nav>
     </header>
     <main>
-        <section class="home">
+        <section class="home" id="home">
             <div class="home__adote container">
                 <div class="home__adote-conteudo">
                     <h1>Adote sim uma Criança</h1>
@@ -64,7 +71,7 @@
                 </div>
             </div>
         </section>
-        <section class="quem-somos container">
+        <section class="quem-somos container" id="quem-somos">
             <h1 class="quem-somos__logo logo__titulo">Adotesim</h1>
             <div class="quem-somos__sobre">
                 <img class="quem-somos__sobre-img" src="./img/img-2.png" alt="Desenho de uma mulher agachada dando as mãos para um criança de mochila">
@@ -81,28 +88,28 @@
                     <img src="./img/contato.png" alt="imagem de uma mão fazendo coração">
                     <h3>Primeiro contato</h3>
                     <p>Deixe seu contato entraremos em contato para entender seu momento, sua história e suas condições</p>
-                    <h5>Atitude</h5>
+                    <h5></h5>
                 </div>
                 <div class="quem-somos__passos-aconselhamento">
                     <img src="./img/aconselhamento.png" alt="imagem de uma casinha">
                     <h3>Aconselhamento</h3>
                     <p>Com uma análise detalhada podemos encontrar a criança ou instituição que mais se assemelha com a
                         familía</p>
-                    <h5>Assertividade</h5>
+                    <h5></h5>
                 </div>
                 <div class="quem-somos__passos-visita">
                     <img src="./img/visita.png" alt="imagem de página do calendário">
                     <h3>Agende uma visita</h3>
                     <p>Nós agilizamos o processo na forma legal proporcionando uma experiência única e assertiva</p>
-                    <h5>Experiência</h5>
+                    <h5></h5>
                 </div>
             </div>
         </section>
-        <section class="instituicoes">
+        <section class="instituicoes" id="instituicoes">
             <div class="container">
             </div>
         </section>
-        <section class="contato container">
+        <section class="contato container" id="contato">
             <h3 class="contato__secao">Contato</h3>
             <h2 class="contato__titulo">Conquiste uma criança</h2>
             <div class="contato__conteudo">
@@ -119,25 +126,88 @@
                 <img class="contato__img" src="./img/contato-form.png" alt="Desenho de 4 pessoas e um cachorro">
             </div>
         </section>
-        <section class="depoimentos">
+        <section class="depoimentos" id="depoimentos">
             <h3>Casos de Sucesso</h3>
-            <div class="depoimentos__depoimento">
-                <p class="depoimentos__conteudo">“Adotar uma criança maior é ter essa emoção elevada à nona potência, pois uma criança que já se reconhece como indivíduo você precisa conquistar, ao mesmo tempo em que se permite ser por ela conquistado.”</p>
-                <img src="./img/cara.png" alt="Foto de um cara">
-                <p>Olivar Oli</p>
+
+            <div class="slider slider-for ">
+                <div>
+                    <p class="depoimentos__conteudo">“Adotar uma criança maior é ter essa emoção elevada à nona
+                        potência,
+                        pois uma criança que já se reconhece como indivíduo você precisa conquistar, ao mesmo tempo em
+                        que
+                        se permite ser por ela conquistado.”</p>
+
+                </div>
+                <div>
+                    <p class="depoimentos__conteudo">“ooooi.”</p>
+
+                </div>
+                <div>
+                    <p class="depoimentos__conteudo">“Adotar uma criança maior é ter essa emoção elevada à nona
+                        potência,
+                        pois uma criança que já se reconhece como indivíduo você precisa conquistar, ao mesmo tempo em
+                        que
+                        se permite ser por ela conquistado.”</p>
+
+                </div>
+                <div>
+                    <p class="depoimentos__conteudo">“Adotar uma criança maior é ter essa emoção elevada à nona
+                        potência,
+                        pois uma criança que já se reconhece como indivíduo você precisa conquistar, ao mesmo tempo em
+                        que
+                        se permite ser por ela conquistado.”</p>
+
+                </div>
+                <div>
+                    <p class="depoimentos__conteudo">“Adotar uma criança maior é ter essa emoção elevada à nona
+                        potência,
+                        pois uma criança que já se reconhece como indivíduo você precisa conquistar, ao mesmo tempo em
+                        que
+                        se permite ser por ela conquistado.”</p>
+
+                </div>
+                <div>
+                    <p class="depoimentos__conteudo">“Adotar uma criança maior é ter essa emoção elevada à nona
+                        potência,
+                        pois uma criança que já se reconhece como indivíduo você precisa conquistar, ao mesmo tempo em
+                        que
+                        se permite ser por ela conquistado.”</p>
+
+                </div>
+            </div>
+            <div class="slider slider-nav center">
+                <div>
+                    <div class="slider-element">
+                        <img src="./img/cara.png" alt="Foto de um cara">
+                        <p>Olivar Oli</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./img/cara.png" alt="Foto de um cara">
+                    <p>Olivar Oli</p>
+                </div>
+                <div>
+                    <img src="./img/cara.png" alt="Foto de um cara">
+                    <p>Olivar Oli</p>
+                </div>
+                <div>
+                    <img src="./img/cara.png" alt="Foto de um cara">
+                    <p>Olivar Oli</p>
+                </div>
+                <div>
+                    <img src="./img/cara.png" alt="Foto de um cara">
+                    <p>Olivar Oli</p>
+                </div>
+                <div>
+                    <img src="./img/cara.png" alt="Foto de um cara">
+                    <p>Olivar Oli</p>
+                </div>
             </div>
             <div class="depoimentos__depoimento">
-                <p class="depoimentos__conteudo">“Adotar uma criança maior é ter essa emoção elevada à nona potência, pois uma criança que já se reconhece como indivíduo você precisa conquistar, ao mesmo tempo em que se permite ser por ela conquistado.”</p>
-                <img src="./img/moca.png" alt="Foto de uma moça">
-                <p>Olivar Oli</p>
-            </div>
-            <div class="depoimentos__depoimento">
-                <p class="depoimentos__conteudo">“Adotar uma criança maior é ter essa emoção elevada à nona potência, pois uma criança que já se reconhece como indivíduo você precisa conquistar, ao mesmo tempo em que se permite ser por ela conquistado.”</p>
-                <img src="./img/moco.png" alt="Foto de um moço">
-                <p>Olivar Oli</p>
+
             </div>
         </section>
-        <section class="blog container">
+        <section class="blog container" id="blog">
             <h3>Blog</h3>
             <h2>Aqui estão as nossas últimas novidades</h2>
             <div class="blog__noticias">
@@ -150,13 +220,15 @@
                 <div>
                     <img class="blog__imagem" src="./img/adocao.png" alt="Foto de crianças deitadas">
                     <h4>Estrutura do Judiciário tornam adoção mais lenta</h4>
-                    <p>Em Florianópolis, não há psicóloga para atender nos processos e, em São José, único profissional deve sair...</p>
+                    <p>Em Florianópolis, não há psicóloga para atender nos processos e, em São José, único profissional
+                        deve sair...</p>
                     <button class="button" type="button">Leia mais</button>
                 </div>
                 <div>
                     <img class="blog__imagem" src="./img/lei.png" alt="Foto de uma mulher com uma criança no colo">
                     <h4>Lei dá prioridade na adoção de crianças com deficiência</h4>
-                    <p>Medida que visa acelerar a tramitação dos processos altera Estatuto da Criança e do Adolescente...</p>
+                    <p>Medida que visa acelerar a tramitação dos processos altera Estatuto da Criança e do
+                        Adolescente...</p>
                     <button class="button" type="button">Leia mais</button>
                 </div>
             </div>
@@ -172,30 +244,33 @@
             <p>E: mehedihas1994@gmail.com</p>
             <p>P: +880 1971502654</p>
         </div>
-            <ul class="footer__list">
-                <li class="footer__list-item">
-                    <a class="footer__list-link" href="#">Home</a>
-                </li>
-                <li class="footer__list-item">
-                    <a class="footer__list-link" href="#">Quem somos</a>
-                </li>
-                <li class="footer__list-item">
-                    <a class="footer__list-link" href="#">Instituições</a>
-                </li>
-                <li class="footer__list-item">
-                    <a class="footer__list-link" href="#">Contato</a>
-                </li>
-                <li class="footer__list-item">
-                    <a class="footer__list-link" href="#">Casos de sucesso</a>
-                </li>
-                <li class="footer__list-item">
-                    <a class="footer__list-link" href="#">Blog</a>
-                </li>
-            </ul>
+        <ul class="footer__list">
+            <li class="footer__list-item">
+                <a class="footer__list-link" href="#">Home</a>
+            </li>
+            <li class="footer__list-item">
+                <a class="footer__list-link" href="#">Quem somos</a>
+            </li>
+            <li class="footer__list-item">
+                <a class="footer__list-link" href="#">Instituições</a>
+            </li>
+            <li class="footer__list-item">
+                <a class="footer__list-link" href="#">Contato</a>
+            </li>
+            <li class="footer__list-item">
+                <a class="footer__list-link" href="#">Casos de sucesso</a>
+            </li>
+            <li class="footer__list-item">
+                <a class="footer__list-link" href="#">Blog</a>
+            </li>
+        </ul>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="./script/jquery.slim.min.js"></script>
     <script src="./script/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="./script/slick.min.js"></script>
     <script src="./script/main.js"></script>
+
 </body>
 
 </html>
