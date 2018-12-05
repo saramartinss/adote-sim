@@ -23,6 +23,15 @@
         } 
         p{
             font-size: $font-p;
+            padding: 30px 0;
+        }
+    }
+    &__button{
+        display: flex;
+        justify-content: center;
+        .button{
+            width: 115.5px;
+            height: 45.44px;
         }
     }
 }
