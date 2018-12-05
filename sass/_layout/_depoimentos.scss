@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     color: #fff;
-    padding: 30px 0;
+    padding: 50px 0;
     h3{
         font-size: $font-h3;
         font-weight: lighter;
@@ -15,12 +15,17 @@
     }
     &__conteudo{
         font-size: $font-p;
+        width: 800px;
+        margin: 50px auto;
     }
     .slider{
         width: 26%;
         img{
             width: 60px;
             padding-top: 10px;
+        }
+        p{
+            text-align: center;
         }
     }
     .slider-for{
