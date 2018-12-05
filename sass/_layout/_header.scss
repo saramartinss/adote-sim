@@ -6,8 +6,15 @@
         &__contato {
             @include display_flex-row();
             font-size: $font-p;
-            width: 350px;
-            padding: 10px 50px 0 0;
+            width: 380px;
+            padding: 15px 0 0 0;
+            li{
+                display: flex;
+                .icone{
+                    width: 20px;
+                    margin-right: 10px;
+                }
+            }
         }
     }
     .navbar {
