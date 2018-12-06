@@ -55,9 +55,60 @@
             }
         }
         .btn__video{
-            background-color: transparent;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: #fff;
             border: none;
             outline: none;
+            text-indent: -99999px;
+            position: relative;
+            margin-top: 20px;
+            animation: pulse 2.5s infinite;
+            cursor: pointer;
+            
+            &::before {
+                content: '';
+                background: inherit;
+                width: 130px;
+                height: 130px;
+                position: absolute;
+                opacity: 0.4;
+                left: -15px;
+                top: -15px;
+                border-radius: 50%;
+                animation: pulseDown 2s infinite;
+
+            }
+
+            &::after {
+                content: '';
+                color: purple;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 0;
+                height: 0;
+                z-index: 10;
+                border-left: 18px solid #bf3fa2;
+                border-top: 10px solid #fff;
+                border-bottom: 10px solid #fff;
+            }
         }
     }
+}
+
+
+@keyframes pulse {
+    0% { transform: scale(1) }
+    50% { transform: scale(1.1) }
+    100% { transform: scale(1) }
+}
+
+
+@keyframes pulseDown {
+    0% { transform: scale(1) }
+    50% { transform: scale(0.9) }
+    100% { transform: scale(1) }
 }
