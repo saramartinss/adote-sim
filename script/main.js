@@ -89,19 +89,3 @@ window.onclick = function(event) {
         viewAllModal.style.display = "none";
     }
 }
-
-
-$(".contato__form").submit(function(e) {
-    e.preventDefault();
-    console.log()
-    var $form = $(this);
-    $.ajax({
-        type: 'POST',
-        url: this.getAttribute('action'),
-        data: $form.serialize(),
-        success: function() {
-            alert('Foi')
-        }
-    });
-  });
-  
