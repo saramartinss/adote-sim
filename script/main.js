@@ -60,17 +60,22 @@ $(function () {
 
 })
 
-var modal = document.getElementById('myModal');
-var btn = document.getElementById("myBtn");
-var span = document.getElementsByClassName("modal__close-btn")[0];
+let modal = document.getElementById('myModal');
+let btn = document.getElementById('myBtn');
+let span = document.getElementsByClassName('modal__close-btn')[0];
+let iframe = document.getElementById('iframe');
+
 btn.onclick = function() {
     modal.style.display = "block";
+    iframe.src = 'https://www.youtube.com/embed/wtuQY8jaZ0U'
 }
 span.onclick = function() {
     modal.style.display = "none";
+    iframe.src = '';
 }
 window.onclick = function(event) {
     if (event.target == modal) {
+        iframe.src = '';
         modal.style.display = "none";
     }
 }
