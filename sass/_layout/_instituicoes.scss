@@ -32,6 +32,17 @@
             width: 49%;
         }
     }
+    &__projeto{
+        &:hover{
+            background-color: #B73AA6;
+            border-color: #B73AA6;
+            color: white;
+            transition: all .5s;
+            h4{
+                color: white;
+            }
+        }
+    }
     &__bloco{
         display: flex;
         padding: 20px 30px;
