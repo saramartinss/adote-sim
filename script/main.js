@@ -66,8 +66,8 @@ let span = document.getElementsByClassName('modal__close-btn')[0];
 let iframe = document.getElementById('iframe');
 
 btn.onclick = function() {
+    iframe.src = 'https://www.youtube.com/embed/wtuQY8jaZ0U';
     modal.style.display = "block";
-    iframe.src = 'https://www.youtube.com/embed/wtuQY8jaZ0U'
 }
 span.onclick = function() {
     modal.style.display = "none";
