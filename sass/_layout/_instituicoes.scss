@@ -1,6 +1,9 @@
 .instituicoes{
     background-color: #FBFBFB;
     padding: 50px 0;
+    h2{
+        color: #0F3553;
+    }
     &__secao{
         font-weight: lighter;
     }
@@ -10,10 +13,19 @@
     }
     &__conteudo{
         display: flex;
+        margin: 25px 0;
+        background-color: #fff;
+        h4{
+            padding-bottom: 15px;
+            color: #0F3553;
+        }
         .col-1-de-2{
             width: 51%;
             img{
                 width: 100%;
+            }
+            div{
+                padding: 20px 30px;
             }
         }
         .col-2-de-2{
@@ -23,9 +35,17 @@
     &__bloco{
         display: flex;
         padding: 20px 30px;
+        border: 1px solid #FBFBFB;
+        div{
+            padding-left: 20px;
+        }
         &-img{
             width: 110px;
             height: 100px;
         }
+    }
+    &__button{
+        display: flex;
+        justify-content: center;
     }
 }
