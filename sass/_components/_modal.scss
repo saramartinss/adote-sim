@@ -1,9 +1,3 @@
-#myBtn{
-    background-color: transparent;
-    border: none;
-    outline: none;
-}
-
 .modal {
     display: none;
     position: fixed;
@@ -20,16 +14,7 @@
         padding: 20px;
         border: 1px solid #888;
         width: 50vw;
-        height: 445px;
         background-image: $gradient;
-        h3{
-            color: #fff;
-            text-align: center;
-        }
-        iframe{
-            width: 100%;
-            height: 360px;
-        }
     }
     &__close-btn {
         color: #aaa;

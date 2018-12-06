@@ -37,7 +37,7 @@
             background-color: #B73AA6;
             border-color: #B73AA6;
             color: white;
-            transition: all .5s;
+            transition: all .8s;
             h4{
                 color: white;
             }
@@ -58,5 +58,46 @@
     &__button{
         display: flex;
         justify-content: center;
+        h3{
+            color: white;
+            text-align: center;
+            padding-bottom: 15px;
+        }
+        img{
+            width: 90px;
+            height: 80px;
+        }
+        .modal{
+            &__blocos{
+                background-color: #fff;
+            }
+            &__projeto{
+                padding: 30px 20px;
+                display: flex;
+                align-items: center;
+                border: 1px solid rgb(241, 241, 241);
+                &:hover{
+                    background-color: #B73AA6;
+                    border-color: #B73AA6;
+                    color: white;
+                    transition: all .8s;
+                    h4{
+                        color: white;
+                    }
+
+                    .visit__btn {
+                        color: #B73AA6;
+                        background: #fff;
+                    }
+                }
+                div{
+                    width: 400px;
+                    padding: 0 20px;
+                    h4{
+                        color: #0F3553;
+                    }
+                }
+            }
+        }
     }
 }

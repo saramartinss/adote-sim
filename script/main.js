@@ -60,22 +60,32 @@ $(function () {
 
 })
 
-let modal = document.getElementById('myModal');
-let btn = document.getElementById('myBtn');
-let span = document.getElementsByClassName('modal__close-btn')[0];
+let videoModal = document.getElementById('myModal');
+let viewAllModal = document.getElementById('viewAllModal');
+let btnVideo = document.getElementById('myBtn');
+let viewAllBtn = document.getElementById('viewAllBtn');
+let spanVideo = document.getElementsByClassName('modal__close-btn')[0];
+let spanViewAll = document.getElementsByClassName('modal__close-btn')[1];
 let iframe = document.getElementById('iframe');
 
-btn.onclick = function() {
+btnVideo.onclick = function() {
     iframe.src = 'https://www.youtube.com/embed/wtuQY8jaZ0U';
-    modal.style.display = "block";
+    videoModal.style.display = "block";
 }
-span.onclick = function() {
-    modal.style.display = "none";
+viewAllBtn.onclick = function() {
+    viewAllModal.style.display = "block";
+}
+spanVideo.onclick = function() {
     iframe.src = '';
+    videoModal.style.display = "none";
+}
+spanViewAll.onclick = function() {
+    viewAllModal.style.display = "none";
 }
 window.onclick = function(event) {
-    if (event.target == modal) {
+    if (event.target == videoModal || event.target == viewAllModal) {
         iframe.src = '';
-        modal.style.display = "none";
+        videoModal.style.display = "none";
+        viewAllModal.style.display = "none";
     }
 }
