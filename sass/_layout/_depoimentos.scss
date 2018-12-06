@@ -6,7 +6,6 @@
     color: #fff;
     padding: 50px 0;
     h3{
-        font-size: $font-h3;
         font-weight: lighter;
     }
     &__depoimento{
@@ -14,7 +13,6 @@
         text-align: center;
     }
     &__conteudo{
-        font-size: $font-p;
         width: 800px;
         margin: 50px auto;
     }
@@ -41,7 +39,12 @@
         padding-top: 0;
         padding-right: 5px;
     }
-    .slider-element img{
-        margin: 0 auto;
+    .slider-element{ 
+        img{
+            margin: 0 auto;
+        }
+        p{
+            font-size: .7rem;
+        }
     }
 }

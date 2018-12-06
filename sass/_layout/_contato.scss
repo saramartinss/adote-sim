@@ -1,10 +1,8 @@
 .contato{
     &__secao{
-        font-size: $font-h4;
         font-weight: lighter;
     }
     &__titulo{
-        font-size: $font-h2;
         color: rgb(15, 53, 83);
         font-weight: lighter;
     }
@@ -39,17 +37,17 @@
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     font-family: $font-family;
-    font-size: $font-p;
+    font-size: .9rem;
 }
 ::-moz-placeholder { /* Firefox 19+ */
     font-family: $font-family;
-    font-size: $font-p;
+    font-size: .9rem;
 }
 :-ms-input-placeholder { /* IE 10+ */
     font-family: $font-family;
-    font-size: $font-p;
+    font-size: .9rem;
 }
 :-moz-placeholder { /* Firefox 18- */
     font-family: $font-family;
-    font-size: $font-p;
+    font-size: .9rem;
 }
