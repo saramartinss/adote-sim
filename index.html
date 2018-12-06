@@ -67,7 +67,13 @@
                         <h1>Podemos fazer uma vida melhor!</h1>
                         <p>Ajude-nos a mudar a vida de uma criança ou adolescente</p>
                     </div>
-                    <img class="home__ajude-video" src="./img/play-video.png" alt="Imagem de play">
+                    <button id="myBtn"><img class="home__ajude-video" src="./img/play-video.png" alt="Imagem de play"></button>
+                    <div id="myModal" class="modal">
+                        <div class="modal__content">
+                            <span class="modal__close-btn">&times;</span>
+                            <p>Some text in the Modal..</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -113,25 +119,26 @@
         </section>
         <section class="contato" id="contato">
             <div class="container">
-            <div class="secao">
-                <h3 class="contato__secao">Contato</h3>
-                <span></span>
+                <div class="secao">
+                    <h3 class="contato__secao">Contato</h3>
+                    <span></span>
+                </div>
+                <h2 class="contato__titulo">Conquiste uma criança</h2>
+                <div class="contato__conteudo">
+                    <form class="contato__form" action="">
+                        <label for="name"></label>
+                        <input type="text" id="name" name="name" placeholder="Nome Completo" required>
+                        <label for="email"></label>
+                        <input type="email" id="email" name="email" placeholder="E-mail" required>
+                        <label for="phone"></label>
+                        <input type="text" id="phone" name="phone" placeholder="Telefone (ddd) xxxxx-xxxx" required>
+                        <textarea name="text" id="text" name="text" rows="7" placeholder="Escreva sua mensagem"
+                            required></textarea>
+                        <button class="contato__btn button" type="submit">Enviar</button>
+                    </form>
+                    <img class="contato__img" src="./img/contato-form.png" alt="Desenho de 4 pessoas e um cachorro">
+                </div>
             </div>
-            <h2 class="contato__titulo">Conquiste uma criança</h2>
-            <div class="contato__conteudo">
-                <form class="contato__form" action="">
-                    <label for="name"></label>
-                    <input type="text" id="name" name="name" placeholder="Nome Completo" required>
-                    <label for="email"></label>
-                    <input type="email" id="email" name="email" placeholder="E-mail" required>
-                    <label for="phone"></label>
-                    <input type="text" id="phone" name="phone" placeholder="Telefone (ddd) xxxxx-xxxx" required>
-                    <textarea name="text" id="text" name="text" rows="7" placeholder="Escreva sua mensagem" required></textarea>
-                    <button class="contato__btn button" type="submit">Enviar</button>
-                </form>
-                <img class="contato__img" src="./img/contato-form.png" alt="Desenho de 4 pessoas e um cachorro">
-            </div>
-        </div>
         </section>
         <section class="depoimentos" id="depoimentos">
             <h3>Casos de Sucesso</h3>
