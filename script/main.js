@@ -96,7 +96,7 @@ $(".contato__form").submit(function(e) {
     console.log()
     var $form = $(this);
     $.ajax({
-        method: 'POST',
+        type: 'POST',
         url: this.getAttribute('action'),
         data: $form.serialize(),
         success: function() {
